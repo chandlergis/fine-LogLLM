@@ -14,7 +14,7 @@ batch_size = 32
 dataset_name = 'BGL'   # 'Thunderbird' 'HDFS_v1'  'BGL'  'Liberty‘
 data_path = r'/mnt/fine-LogLLM/SyslogData/BGL/test.csv'.format(dataset_name)
 
-Bert_path = r"/mnt/mnt/fine-LogLLM/model/bert-base-uncased"
+Bert_path = r"/mnt/fine-LogLLM/model/bert-base-uncased"
 Llama_path = r"/mnt/fine-LogLLM/model/Meta-Llama-3-8B"
 
 ROOT_DIR = Path(__file__).parent
