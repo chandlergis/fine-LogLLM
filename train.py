@@ -27,12 +27,12 @@ lr_3 = 5e-5
 max_content_len = 100
 max_seq_len = 128
 
-data_path = r'/mnt/fine-LogLLM//SyslogData/BLG/train.csv'.format(dataset_name)
+data_path = r'/mnt/fine-LogLLM//yslogData/BLG/train.csv'.format(dataset_name)
 
 min_less_portion = 0.3
 
-Bert_path = r"/mnt/fine-LogLLM//bert-base-uncased"
-Llama_path = r"/mnt/fine-LogLLM//model/Meta-Llama-3-8B"
+Bert_path = r"/mnt/fine-LogLLM/model/bert-base-uncased"
+Llama_path = r"/mnt/fine-LogLLM/model/Meta-Llama-3-8B"
 
 ROOT_DIR = Path(__file__).parent
 ft_path = os.path.join(ROOT_DIR, r"ft_model_{}".format(dataset_name))
