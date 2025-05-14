@@ -27,7 +27,7 @@ lr_3 = 5e-5
 max_content_len = 100
 max_seq_len = 128
 
-data_path = r'/mnt/fine-LogLLM/SyslogData/BLG/train.csv'.format(dataset_name)
+data_path = r'/mnt/fine-LogLLM/SyslogData/BGL/train.csv'.format(dataset_name)
 
 min_less_portion = 0.3
 
