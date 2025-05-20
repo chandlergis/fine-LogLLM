@@ -8,7 +8,7 @@ from helper import sliding_window, fixedSize_window, structure_log
 #### for Thunderbird, Liberty, BGL
 
 
-data_dir = r'/mnt/d/github/demo/fine-LogLLM/SyslogData/BGL'
+data_dir = r'/mnt/SyslogData/BGL'
 log_name = "BGL.log"
 
 start_line = 0
